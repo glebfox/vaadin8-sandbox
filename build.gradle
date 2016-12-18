@@ -16,6 +16,11 @@ repositories {
 
 vaadin {
     version '8.+'
+    debug false
+
+    plugin {
+        openInBrowser false
+    }
 }
 
 task wrapper(type: Wrapper) {
