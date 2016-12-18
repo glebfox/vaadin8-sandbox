@@ -6,3 +6,4 @@
 /build/
 /out/
 test-run
+/src/main/webapp/VAADIN/themes/*/styles.css

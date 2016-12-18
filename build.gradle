@@ -1,5 +1,5 @@
 plugins {
-    id 'fi.jasoft.plugin.vaadin' version '1.0'
+    id 'fi.jasoft.plugin.vaadin' version '1.0.1'
 }
 
 apply plugin: 'java'
@@ -12,6 +12,10 @@ sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
+}
+
+vaadin {
+    version '8.+'
 }
 
 task wrapper(type: Wrapper) {
