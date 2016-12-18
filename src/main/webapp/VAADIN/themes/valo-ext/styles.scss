@@ -1,8 +1,8 @@
 @import "addons.scss";
-@import "vaadin8sandbox.scss";
+@import "valo-ext.scss";
 
 /* This file prefixes all rules with the theme name to avoid causing conflicts with other themes. */
-/* The actual styles should be defined in vaadin8sandbox.scss */
+/* The actual styles should be defined in valo-ext.scss */
 .valo-ext {
   @include addons;
   @include valo-ext;
